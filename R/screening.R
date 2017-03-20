@@ -17,7 +17,7 @@ screenblastdb <- function(gene,lowconflength,lowconfident,highconflength,highcon
 myarg <-  paste0('-query ',gene,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc bitscore qlen length pident qstart qend sacc sstart send "' )
 system2(command = 'blastn', args = myarg)
 
-blast <- try(read.table('blast.txt', comment.char = '#'),silent=T)
+blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
 if (class(blast) == 'data.frame')
 {
   colnames(blast) <- c('querry.access','bitscore','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
