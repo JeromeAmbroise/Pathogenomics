@@ -12,8 +12,9 @@ print('DB was created')
 
 
 
-screenblastdb <- function(gene,lowconflength,lowconfident,highconflength,highconfident)
+screenblastdb <- function(gene,lowconflength,lowconfident,highconflength,highconfident,outputdir)
 {
+
   myarg <-  paste0('-query ',gene,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc bitscore qlen length pident qstart qend sacc sstart send "' )
   system2(command = 'blastn', args = myarg)
 
@@ -28,7 +29,7 @@ screenblastdb <- function(gene,lowconflength,lowconfident,highconflength,highcon
     blast <- blast[blast$pc.ident. > lowconfident, ]
     if (dim(blast)[1] > 0)
     {
-      write.csv(blast,paste0('output/',genome.name[i],'-',gene.name[j],'.csv'),row.names = F)
+      write.csv(blast,paste0(outputdir,'/',genome.name[i],'-',gene.name[j],'.csv'),row.names = F)
       if ((blast$pc.length[1]>highconflength)&(blast$pc.ident.[1]>highconfident)){output <- 1}
       else(output <- 0.5)
     }
