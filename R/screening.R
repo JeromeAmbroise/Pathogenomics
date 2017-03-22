@@ -5,8 +5,7 @@ Rmakeblastdb <- function(fastapath='')
 dir.create('temp')
 dir.create('temp/dbgenomes')
 myarg <-paste0('-in ',fastapath,' -out temp/dbgenomes/db -dbtype nucl')
-system2(command = 'makeblastdb', args = myarg)
-print('DB was created')
+system2(command = 'makeblastdb', args = myarg,stdout=F)
 }
 
 
