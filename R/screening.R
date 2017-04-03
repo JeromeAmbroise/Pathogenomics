@@ -1,5 +1,5 @@
 
-screening <- function(genomePath,genesPath,lengthLowconf,lengthHighconf,identLowconf,identHighconf,outputdir)
+screening <- function(genomePath,genesPath,lengthconf,identconf,outputdir)
 {
 
   genomeName <- gsub(pattern='.fasta',replacement='',x=basename(genomePath))
@@ -26,13 +26,12 @@ screening <- function(genomePath,genesPath,lengthLowconf,lengthHighconf,identLow
       blast <- blast[sort.list(blast$bitscore, decreasing = T), ]
       pc.length <- 100 * round(blast$alignment.lenght / blast$querry.length, 3)
       blast <-  data.frame(blast[, c(1, 2, 3)], pc.length, blast[, -c(1, 2, 3)])
-      blast <- blast[blast$pc.length > lengthLowconf, ]
-      blast <- blast[blast$pc.ident. > identLowconf, ]
+      blast <- blast[blast$pc.length > lengthconf, ]
+      blast <- blast[blast$pc.ident. > identconf, ]
       if (dim(blast)[1] > 0)
       {
         write.csv(blast,paste0(outputdir,'/',paste0(genomeName,genesName[i]),'.csv'),row.names = F)
-        if ((blast$pc.length[1]>lengthHighconf)&(blast$pc.ident.[1]>identHighconf)){result[i] <- 1}
-        else(result[i] <- 0.5)
+        result[i] <- 1
       }
       else(result[i] <- 0)
     }
