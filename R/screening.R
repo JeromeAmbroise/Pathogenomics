@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #' Screen for a set of genes of interst (e.g. virulence genes) from a (draft of complete) genome
 #'
 #' screening returns a vector indicating if the genome matches each gene of interst.
@@ -12,8 +11,12 @@
 #' @return result is a vector containing 0 and 1. This vector has the length of the number of genes of interest.
 #' The name of the elements of this vector corresponds to the name of the gene of interest.
 #' @examples
-#' calib_doe(nRun = 2, nCalibCurvesPerRun = 3, nrepCalib = 5,
-#'  ConcVect = c(0,50,100,125,150,175,200))
+#' genomePath <- list.files(path='system.file("extdata/genome", package = "Pathogenomics")',full.names=T)
+#' Ngenomes <- length(genomePath)
+#' genesPath <- list.files(system.file("extdata/virulence/Escherichia-coli/Virulencefinder", package = "Pathogenomics"),full.names=T)
+#' Ngenes <- length(genesPath)
+#' screening(genomePath= genomePath[1],genesPath=genesPath,lengthconf = 60,identconf = 90,outputdir = '7-virulence-Irenge')
+
 #' @export
 screening <- function(genomePath,genesPath,lengthconf,identconf,outputdir)
 {
