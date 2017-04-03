@@ -11,6 +11,10 @@ screening(genomePath, genesPath, lengthconf, identconf, outputdir)
 
 \item{genesPath}{A vector of string of character corresponding to the paths of the FASTA files of the genes of interst (e.g. virulence genes).}
 
+\item{lengthconf}{The minimum accepted length of the hit (in percentage of the gene of interest).}
+
+\item{identconf}{The minimum accepted identity of the hit (in percentage of identity).}
+
 \item{outputdir}{The directory where output files are stored.}
 }
 \value{
