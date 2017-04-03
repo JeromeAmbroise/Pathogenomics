@@ -1,7 +1,7 @@
 
 screening <- function(genomePath,genesPath,lengthLowconf,lengthHighconf,identLowconf,identHighconf,outputdir)
 {
-
+#Add comments and doc
   genomeName <- gsub(pattern='.fasta',replacement='',x=basename(genomePath))
   genesName  <- gsub(pattern='.fasta',replacement='',x=basename(genesPath))
 
