@@ -1,4 +1,19 @@
-
+#' Screen for a set of genes of interst (e.g. virulence genes) from a (draft of complete) genome
+#'
+#' screening returns a vector indicating if the genome matches each gene of interst.
+#'
+#' @param genomePath A string of character corresponding to the path of the FASTA file of the genome to be screened.
+#'
+#' @param genesPath A vector of string of character corresponding to the paths of the FASTA files of the genes of interst (e.g. virulence genes).
+#'
+#' @param outputdir The directory where output files are stored.
+#'
+#' @return result is a vector containing 0 and 1. This vector has the length of the number of genes of interest.
+#' The name of the elements of this vector corresponds to the name of the gene of interest.
+#' @examples
+#' calib_doe(nRun = 2, nCalibCurvesPerRun = 3, nrepCalib = 5,
+#'  ConcVect = c(0,50,100,125,150,175,200))
+#' @export
 screening <- function(genomePath,genesPath,lengthLowconf,lengthHighconf,identLowconf,identHighconf,outputdir)
 {
 #Add comments and doc
