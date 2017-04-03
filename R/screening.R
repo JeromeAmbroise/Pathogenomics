@@ -15,11 +15,7 @@
 #' calib_doe(nRun = 2, nCalibCurvesPerRun = 3, nrepCalib = 5,
 #'  ConcVect = c(0,50,100,125,150,175,200))
 #' @export
-screening <- function(genomePath,genesPath,lengthLowconf,lengthHighconf,identLowconf,identHighconf,outputdir)
-=======
-
 screening <- function(genomePath,genesPath,lengthconf,identconf,outputdir)
->>>>>>> 8fb4ee5bece28aa5d8d9be738619d6a1cb677835
 {
 #Add comments and doc
   genomeName <- gsub(pattern='.fasta',replacement='',x=basename(genomePath))
@@ -63,4 +59,3 @@ screening <- function(genomePath,genesPath,lengthconf,identconf,outputdir)
   try(unlink("temp", recursive=TRUE))
   return(result)
 }
-
