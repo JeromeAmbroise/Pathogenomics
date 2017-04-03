@@ -1,77 +1,117 @@
-
-typemlst <- function(genome,type)
+typemlst <- function(genomePath,type)
 {
   if(type=='warwick')
   {
     try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/ADK.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/ADK.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
     system2(command='blastn',args=myarg)
     blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    ADK <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==536)&(blast$pc.ident.==100)]))
-    print('ADK done')
-
-    try(rm(blast),silent=T)
-    try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/FUMC.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
-    system2(command='blastn',args=myarg)
-    blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    FUMC <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==469)&(blast$pc.ident.==100)]))
-    print('FUMC done')
-
-    try(rm(blast),silent=T)
-    try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/GYRB.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
-    system2(command='blastn',args=myarg)
-    blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    GYRB <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==460)&(blast$pc.ident.==100)]))
-    print('GYRB done')
+    ADK <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      ADK <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==536)&(blast$pc.ident.==100)]))[1]
+      print('ADK done')
+    }
 
 
     try(rm(blast),silent=T)
     try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/ICD.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/FUMC.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
     system2(command='blastn',args=myarg)
     blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    ICD <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==518)&(blast$pc.ident.==100)]))
-    print('ICD done')
+    FUMC <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      FUMC <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==469)&(blast$pc.ident.==100)]))[1]
+      print('FUMC done')
+    }
+
 
     try(rm(blast),silent=T)
     try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/MDH.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/GYRB.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
     system2(command='blastn',args=myarg)
     blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    MDH <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==452)&(blast$pc.ident.==100)]))
-    print('MDH done')
+    GYRB <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      GYRB <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==460)&(blast$pc.ident.==100)]))[1]
+      print('GYRB done')
+    }
+
 
     try(rm(blast),silent=T)
     try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/PURA.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/ICD.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
     system2(command='blastn',args=myarg)
     blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    PURA <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==478)&(blast$pc.ident.==100)]))
-    print('PURA done')
+    ICD <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      ICD <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==518)&(blast$pc.ident.==100)]))[1]
+      print('ICD done')
+    }
+
 
     try(rm(blast),silent=T)
     try(unlink("temp", recursive=TRUE),silent=T)
-    Rmakeblastdb(fastapath=system.file("extdata/typing/Escherichia-coli/MSLT-warwick/RECA.fasta", package = "Pathogenomics"))
-    myarg <- paste0('-query ',genome,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/MDH.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
     system2(command='blastn',args=myarg)
     blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-    colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    RECA <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==510)&(blast$pc.ident.==100)]))
-    print('RECA done')
+    MDH <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      MDH <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==452)&(blast$pc.ident.==100)]))[1]
+      print('MDH done')
+    }
+
+
+    try(rm(blast),silent=T)
+    try(unlink("temp", recursive=TRUE),silent=T)
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/PURA.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    system2(command='blastn',args=myarg)
+    blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
+    PURA <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      PURA <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==478)&(blast$pc.ident.==100)]))[1]
+      print('PURA done')
+    }
+
+
+
+    try(rm(blast),silent=T)
+    try(unlink("temp", recursive=TRUE),silent=T)
+    myarg <-paste0('-in ',system.file("extdata/typing/Escherichia-coli/MSLT-warwick/RECA.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
+    system2(command = 'makeblastdb', args = myarg,stdout=F)
+    myarg <- paste0('-query ',genomePath,' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc qlen length pident qstart qend sacc sstart send "')
+    system2(command='blastn',args=myarg)
+    blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
+    RECA <- ''
+    if(class(blast)=='data.frame')
+    {
+      colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      RECA <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==510)&(blast$pc.ident.==100)]))[1]
+      print('RECA done')
+    }
 
     try(unlink("temp", recursive=TRUE),silent=T)
     MSLT <- c(ADK,FUMC,GYRB,ICD,MDH,PURA,RECA)
@@ -79,4 +119,3 @@ typemlst <- function(genome,type)
   }
 
 }
-

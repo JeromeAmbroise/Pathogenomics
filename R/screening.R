@@ -1,40 +1,47 @@
 
-
-Rmakeblastdb <- function(fastapath='')
-{
-dir.create('temp')
-dir.create('temp/dbgenomes')
-myarg <-paste0('-in ',fastapath,' -out temp/dbgenomes/db -dbtype nucl')
-system2(command = 'makeblastdb', args = myarg,stdout=F)
-}
-
-
-
-
-screenblastdb <- function(gene,lowconflength,lowconfident,highconflength,highconfident,outputdir)
+screening <- function(genomePath,genesPath,lengthLowconf,lengthHighconf,identLowconf,identHighconf,outputdir)
 {
 
-  myarg <-  paste0('-query ',gene,' -db temp/dbgenomes/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc bitscore qlen length pident qstart qend sacc sstart send "' )
-  system2(command = 'blastn', args = myarg)
+  genomeName <- gsub(pattern='.fasta',replacement='',x=basename(genomePath))
+  genesName  <- gsub(pattern='.fasta',replacement='',x=basename(genesPath))
 
-  blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
-  if (class(blast) == 'data.frame')
+  try(unlink("temp", recursive=TRUE))
+  dir.create('temp')
+  dir.create('temp/dbblast')
+  myarg <-paste0('-in ',genomePath,' -out temp/dbblast/db -dbtype nucl')
+  system2(command = 'makeblastdb', args = myarg,stdout=F)
+
+  Ngene <- length(genesPath)
+  result <- numeric()
+
+  for (i in 1:Ngene)
   {
-    colnames(blast) <- c('querry.access','bitscore','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-    blast <- blast[sort.list(blast$bitscore, decreasing = T), ]
-    pc.length <- 100 * round(blast$alignment.lenght / blast$querry.length, 3)
-    blast <-  data.frame(blast[, c(1, 2, 3)], pc.length, blast[, -c(1, 2, 3)])
-    blast <- blast[blast$pc.length > lowconflength, ]
-    blast <- blast[blast$pc.ident. > lowconfident, ]
-    if (dim(blast)[1] > 0)
+    myarg <-  paste0('-query ',genesPath[i],' -db temp/dbblast/db -out temp/blast.txt -num_threads 8 -num_alignments 10 -outfmt "7 qacc bitscore qlen length pident qstart qend sacc sstart send "' )
+    system2(command = 'blastn', args = myarg)
+
+    blast <- try(read.table('temp/blast.txt', comment.char = '#'),silent=T)
+    if (class(blast) == 'data.frame')
     {
-      write.csv(blast,paste0(outputdir,'/',genome.name[i],'-',gene.name[j],'.csv'),row.names = F)
-      if ((blast$pc.length[1]>highconflength)&(blast$pc.ident.[1]>highconfident)){output <- 1}
-      else(output <- 0.5)
+      colnames(blast) <- c('querry.access','bitscore','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
+      blast <- blast[sort.list(blast$bitscore, decreasing = T), ]
+      pc.length <- 100 * round(blast$alignment.lenght / blast$querry.length, 3)
+      blast <-  data.frame(blast[, c(1, 2, 3)], pc.length, blast[, -c(1, 2, 3)])
+      blast <- blast[blast$pc.length > lengthLowconf, ]
+      blast <- blast[blast$pc.ident. > identLowconf, ]
+      if (dim(blast)[1] > 0)
+      {
+        write.csv(blast,paste0(outputdir,'/',paste0(genomeName,genesName[i]),'.csv'),row.names = F)
+        if ((blast$pc.length[1]>lengthHighconf)&(blast$pc.ident.[1]>identHighconf)){result[i] <- 1}
+        else(result[i] <- 0.5)
+      }
+      else(result[i] <- 0)
     }
-    else(output <- 0)
+    else(result[i] <- 0)
+    try(file.remove("temp/blast.txt"))
   }
-  else(output <- 0)
-  return(output)
+  names(result) <- genesName
+
+  try(unlink("temp", recursive=TRUE))
+  return(result)
 }
 
