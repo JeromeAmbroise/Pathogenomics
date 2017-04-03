@@ -21,7 +21,7 @@ The name of the elements of this vector corresponds to the name of the gene of i
 screening returns a vector indicating if the genome matches each gene of interst.
 }
 \examples{
-genomePath <- list.files(path='system.file("extdata/genome", package = "Pathogenomics")',full.names=T)
+genomePath <- list.files(system.file("extdata/genome", package = "Pathogenomics"),full.names=T)
 Ngenomes <- length(genomePath)
 genesPath <- list.files(system.file("extdata/virulence/Escherichia-coli/Virulencefinder", package = "Pathogenomics"),full.names=T)
 Ngenes <- length(genesPath)
