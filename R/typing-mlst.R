@@ -126,6 +126,7 @@ typemlst <- function(genomePath,type)
 
   if(type=='klebsiella-pasteur')
   {
+
     try(unlink("temp", recursive=TRUE),silent=T)
     myarg <-paste0('-in ',system.file("extdata/typing/Klebsiella-pneumoniae/MLST-pasteur/GAPA.fasta", package = "Pathogenomics"),' -out temp/dbblast/db -dbtype nucl')
     system2(command = 'makeblastdb', args = myarg,stdout=F)
@@ -168,7 +169,7 @@ typemlst <- function(genomePath,type)
     if(class(blast)=='data.frame')
     {
       colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-      MDH <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==460)&(blast$pc.ident.==100)]))[1]
+      MDH <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==477)&(blast$pc.ident.==100)]))[1]
       print('MDH done')
     }
 
@@ -184,7 +185,7 @@ typemlst <- function(genomePath,type)
     if(class(blast)=='data.frame')
     {
       colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-      PGI <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==518)&(blast$pc.ident.==100)]))[1]
+      PGI <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==432)&(blast$pc.ident.==100)]))[1]
       print('PGI done')
     }
 
@@ -200,7 +201,7 @@ typemlst <- function(genomePath,type)
     if(class(blast)=='data.frame')
     {
       colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-      PHOE <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==452)&(blast$pc.ident.==100)]))[1]
+      PHOE <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==420)&(blast$pc.ident.==100)]))[1]
       print('PHOE done')
     }
 
@@ -216,7 +217,7 @@ typemlst <- function(genomePath,type)
     if(class(blast)=='data.frame')
     {
       colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
-      RPOB <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==478)&(blast$pc.ident.==100)]))[1]
+      RPOB <- paste0('',as.character(blast$subject.access[(blast$alignment.lenght==501)&(blast$pc.ident.==100)]))[1]
       print('RPOB done')
     }
 
