@@ -1,11 +1,12 @@
 
-typemlst2 <- function(genomePath,type)
+typemlst <- function(genomePath,type)
 {
 
   if(type=='ecoli-warwick'){genesPath <- list.files(system.file("extdata/typing/Escherichia-coli/MSLT-warwick/",package = "Pathogenomics"),full.names=T) }
   if(type=='klebsiella-pasteur'){genesPath <- list.files(system.file("extdata/typing/Klebsiella-pneumoniae/MSLT-pasteur/",package = "Pathogenomics"),full.names=T) }
 
   combination <- genesPath[grep('txt',genesPath)]
+
   genesPath <- genesPath[grep('fasta',genesPath)]
   genesName  <- gsub(pattern='.fasta',replacement='',x=basename(genesPath))
 
@@ -49,6 +50,8 @@ typemlst2 <- function(genomePath,type)
   rownames(combinationReduced) <- combination$ST
 
   result <- combinationReduced[apply(mapply("==",as.numeric(resultnum),combinationReduced),1,sum)==Ngene,]
+  result$ST <- rownames(result)
+  rownames(result) <- NULL
   return(result)
 
 }
