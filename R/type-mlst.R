@@ -1,4 +1,3 @@
-
 typemlst <- function(genomePath,type)
 {
 
@@ -39,22 +38,24 @@ typemlst <- function(genomePath,type)
   result
   resultnum <- substr(result,start=unlist(lapply(gregexpr("[0123456789]",result), function(l) l[[1]])),stop=nchar(result))
   resultchar <- substr(result,start=1,stop=unlist(lapply(gregexpr("[0123456789]",result), function(l) l[[1]]))-1)
+  names(resultnum) <- resultchar
 
-  idx <- numeric()
-  for(i in 1:Ngene)
+  if(min(nchar(resultchar))>0)
+  {
+    idx <- numeric()
+    for(i in 1:Ngene)
     {
-    idx[i] <- grep(resultchar[i],colnames(combination))
+      idx[i] <- grep(resultchar[i],colnames(combination))
     }
+    combinationReduced <- combination[,idx]
+    rownames(combinationReduced) <- combination$ST
 
-  combinationReduced <- combination[,idx]
-  rownames(combinationReduced) <- combination$ST
+    ST <- paste0('',rownames(combinationReduced[apply(mapply("==",as.numeric(resultnum),combinationReduced),1,sum)==Ngene,]))
+  }
+  else(ST='')
+  names(ST) <- 'ST'
 
-  result <- combinationReduced[apply(mapply("==",as.numeric(resultnum),combinationReduced),1,sum)==Ngene,]
-  result$ST <- rownames(result)
-  rownames(result) <- NULL
+  result <- c(resultnum,ST)
   return(result)
 
 }
-
-
-
