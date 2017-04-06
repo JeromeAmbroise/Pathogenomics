@@ -1,7 +1,7 @@
 typemlst <- function(genomePath,type)
 {
 
-     #### ESCHERICHIA COLI
+  #### ESCHERICHIA COLI
 
   if(type=='ecoli-warwick')
   {
