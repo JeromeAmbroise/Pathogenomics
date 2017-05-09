@@ -3,6 +3,7 @@ typemlst <- function(genomePath,type)
 
   if(type=='ecoli-warwick'){genesPath <- list.files(system.file("extdata/typing/Escherichia-coli/MSLT-warwick/",package = "Pathogenomics"),full.names=T) }
   if(type=='klebsiella-pasteur'){genesPath <- list.files(system.file("extdata/typing/Klebsiella-pneumoniae/MLST-pasteur/",package = "Pathogenomics"),full.names=T) }
+  if(type=='vibrio-pasteur'){genesPath <- list.files(system.file("extdata/typing/Vibrio-cholerae/MLST-pasteur/",package = "Pathogenomics"),full.names=T) }
   if(type=='plasmid-IncACcgPMLST'){genesPath <- list.files(system.file("extdata/typing/plasmid/IncACcgPMLST/",package = "Pathogenomics"),full.names=T) }
   if(type=='plasmid-IncACPMLST'){genesPath <- list.files(system.file("extdata/typing/plasmid/IncACPMLST/",package = "Pathogenomics"),full.names=T) }
   if(type=='plasmid-IncFRST'){genesPath <- list.files(system.file("extdata/typing/plasmid/IncFRST/",package = "Pathogenomics"),full.names=T) }
@@ -13,7 +14,7 @@ typemlst <- function(genomePath,type)
 
 
   if(exists('genesPath')==F)
-  {cat('specify one of the following type: ecoli-warwick klebsiella-pasteur plasmid-IncACcgPMLST plasmid-IncACPMLST plasmid-IncFRST plasmid-IncHI1MLST plasmid-IncHI2DLST plasmid-IncI1MLST plasmid-IncNMLST')  }
+  {cat('specify one of the following type: ecoli-warwick vibrio-pasteur klebsiella-pasteur plasmid-IncACcgPMLST plasmid-IncACPMLST plasmid-IncFRST plasmid-IncHI1MLST plasmid-IncHI2DLST plasmid-IncI1MLST plasmid-IncNMLST')  }
   else
   {
     combination <- genesPath[grep('txt',genesPath)]
