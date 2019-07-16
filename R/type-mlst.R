@@ -4,6 +4,8 @@ typemlst <- function(genomePath,type)
   if(type=='ecoli-warwick'){genesPath <- list.files(system.file("extdata/typing/Escherichia-coli/MSLT-warwick/",package = "Pathogenomics"),full.names=T) }
   if(type=='klebsiella-pasteur'){genesPath <- list.files(system.file("extdata/typing/Klebsiella-pneumoniae/MLST-pasteur/",package = "Pathogenomics"),full.names=T) }
   if(type=='vibrio-pasteur'){genesPath <- list.files(system.file("extdata/typing/Vibrio-cholerae/MLST-pasteur/",package = "Pathogenomics"),full.names=T) }
+  if(type=='bacillus-th'){genesPath <- list.files(system.file("extdata/typing/Bacillus/MLST-Tourasse-Helgason",package = "Pathogenomics"),full.names=T) }
+  if(type=='bacillus-pasteur'){genesPath <- list.files(system.file("extdata/typing/Bacillus/MLST-pasteur",package = "Pathogenomics"),full.names=T) }
   if(type=='plasmid-IncACcgPMLST'){genesPath <- list.files(system.file("extdata/typing/plasmid/IncACcgPMLST/",package = "Pathogenomics"),full.names=T) }
   if(type=='plasmid-IncACPMLST'){genesPath <- list.files(system.file("extdata/typing/plasmid/IncACPMLST/",package = "Pathogenomics"),full.names=T) }
   if(type=='plasmid-IncFRST'){genesPath <- list.files(system.file("extdata/typing/plasmid/IncFRST/",package = "Pathogenomics"),full.names=T) }
@@ -42,12 +44,13 @@ typemlst <- function(genomePath,type)
       {
         colnames(blast) <- c('querry.access','querry.length','alignment.lenght','pc.ident.','querry.start','querry.end','subject.access','subject.start','subject.end')
         blast <- blast[(blast$alignment.lenght==blast$querry.length)&(blast$pc.ident.==100),]
-        result[i] <- paste0('',as.character(blast$querry.access))
+        result[i] <- paste0('',as.character(blast$querry.access[which.max(blast$querry.length)]))
       }
       else{result[i] <- ''}
     }
 
     combination <- read.table(combination,sep='\t',header=T)
+    combination <- combination[duplicated(combination$ST)==F,]
     resultnum <- substr(result,start=unlist(lapply(gregexpr("[0123456789]",result), function(l) l[[1]])),stop=nchar(result))
     names(resultnum) <- genesName
 

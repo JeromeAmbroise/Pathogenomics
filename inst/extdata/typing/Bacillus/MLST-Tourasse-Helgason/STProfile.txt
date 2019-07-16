@@ -1,0 +1,479 @@
+strain	description	source	location	cluster	adk	ccpA	glpF	glpT	panC	pta	pycA	ST
+Ames	B.anthracis Ames Porton	[pXO1-/pXO2-; Ames strain cured of the pXO1 and pXO2 plasmids at UK Defence Science and Technology Laboratory]	UK, England, Porton Down	clusterIII	24	36	35	18	32	32	33	1
+EPI674	B.anthracis EPI674	Human, Heroin abuser, muscle	Norway	clusterIII	24	36	35	18	32	32	33	1
+NVH87	B.anthracis NVH87	Animal, cattle (Bovine) (1987)	Norway	clusterIII	24	36	35	18	32	32	33	1
+NVH93	B.anthracis NVH93	Animal, cattle (Bovine) (1993)	Norway	clusterIII	24	36	35	18	32	32	33	1
+ATCC10987	B.cereus ATCC10987 (AH75)	Dairy products, Cheese (1930)	Canada	clusterIII	12	16	15	36	14	15	15	2
+F4810/72	B.cereus F4810/72 (AH187, KBBI2, FHL4810, NCTC11143, DSM4312, SMR178)	Human, vomit (1972) [emetic food poisoning outbreak; human vomiting; reference emetic toxin/cereulide producer]	UK	clusterIII	10	14	13	14	12	13	13	3
+AH230	B.thuringiensis ATCC21282 (AH230)			clusterIII	12	16	15	16	14	15	15	5
+AH251	B.thuringiensis kenyae BGSC4F3 (AH251, AH1302, HD293)	Animal, Insect, Almond moth (Ephestia cautella/Cadra cautella)	USA	clusterIV	13	17	16	17	15	16	16	6
+AH267	B.c_group AH267	Human	Norway	clusterIII	14	18	17	18	16	17	17	7
+AH403	B.c_group AH403	Dairy	Norway	clusterVI	15	19	18	19	17	18	18	8
+AH407	B.c_group AH407	Dairy	Finland, Valio	clusterVI	5	20	19	20	18	18	19	9
+AH408	B.c_group AH408	Dairy	Finland, Valio	clusterVI	16	21	20	21	19	19	20	10
+AH519	B.c_group AH519	Soil, strawberry field (1993)	Norway, Moss	clusterII	7	22	21	22	20	20	21	11
+AH536	B.c_group AH536	Soil, strawberry field (1993)	Norway, Moss	clusterII	7	22	21	22	21	20	21	12
+AH542	B.c_group AH542	Soil, strawberry field (1993)	Norway, Moss	clusterII	7	22	22	22	22	20	22	13
+AH546	B.c_group AH546	Soil, cabbage field (1993)	Norway, Moss	clusterIV	17	23	1	23	23	21	23	14
+AH547	B.c_group AH547	Soil, cabbage field (1993)	Norway, Moss	clusterVI	5	20	23	24	23	18	24	15
+AH553	B.c_group AH553	Soil, cabbage field (1993)	Norway, Moss	clusterII	7	24	10	25	24	22	21	16
+AH572	B.c_group AH572	Soil, beech grove (1993)	Norway, Moss	clusterII	7	22	21	22	20	20	21	11
+AH607	B.c_group AH607	Dairy	Norway, Tynset	clusterII	18	25	24	26	25	23	25	17
+AH614	B.c_group AH614	Dairy	Norway, Porsgrunn	clusterVI	16	26	25	27	26	24	20	18
+AH627	B.c_group AH627	Soil, heather soil (1994)	Norway, Singsas/Saetereng	clusterVI	16	21	19	28	19	19	20	19
+AH632	B.c_group AH632	Soil, heather soil (1994)	Norway, Singsas/Saetereng	clusterVI	5	20	19	29	18	18	26	20
+AH641	B.c_group AH641	Soil, heather soil (1994)	Norway, Singsas/Saetereng	clusterVI	19	20	26	19	23	25	27	21
+AH645	B.c_group AH645	Soil, heather soil (1994)	Norway, Steigen	clusterVI	20	27	27	30	23	26	27	22
+AH650	B.c_group AH650	Soil, heather soil (1994)	Norway, Steigen	clusterVI	21	28	28	31	27	6	28	23
+AH663	B.c_group AH663	Soil, woodland soil (1994)	Norway, Brekkvasselv	clusterVI	5	20	19	29	18	18	19	24
+AH664	B.c_group AH664	Soil, woodland soil (1994)	Norway, Brekkvasselv	clusterVI	22	29	29	19	28	27	29	25
+AH675	B.c_group AH675	Soil, heather soil (1994)	Norway, Tromso	clusterVI	23	20	30	29	18	18	30	26
+AH678	B.c_group AH678	Soil, heather soil (1994)	Norway, Tromso	clusterVI	22	30	31	32	23	28	29	27
+AH681	B.c_group AH681	Soil, heather soil (1994)	Norway, Tromso	clusterVI	21	31	26	8	23	29	7	28
+AH685	B.c_group AH685	Soil, heather soil (1994)	Norway, Tromso	clusterVI	22	20	32	8	29	6	31	29
+AH716	B.c_group AH716	Human, pus	Norway, Skien	clusterIV	3	13	12	13	11	30	12	30
+AH718	B.c_group AH718	Human, nose	Norway, Skien	clusterIV	3	32	12	13	11	30	12	31
+AH726	B.c_group AH726	Human, urine	Norway, Skien	clusterIV	3	13	12	13	11	12	12	33
+AH727	B.c_group AH727	Human, pus	Norway, Skien	clusterII	7	34	10	34	30	20	32	34
+AH728	B.c_group AH728	Human, urine	Norway, Skien	clusterIII	10	35	34	35	31	13	13	35
+AH810	B.c_group AH810	Human, periodontitis (1994)	Norway, Telemark	clusterIII	25	37	36	37	33	33	34	36
+AH811	B.c_group AH811	Human, periodontitis (1995)	Brazil, Sao Jose dos Pinhais	clusterIV	3	38	6	38	5	5	35	37
+AH812	B.c_group AH812	Human, periodontitis (1995)	Norway, Oslo	clusterIII	10	35	13	14	12	34	36	38
+AH813	B.c_group AH813	Human, periodontitis (1995)	Brazil, Curitiba	clusterIII	2	35	37	39	34	32	37	39
+AH816	B.c_group AH816	Human, periodontitis (1995)	Norway, Akershus	clusterIII	2	35	37	39	34	32	37	39
+AH817	B.c_group AH817	Human, periodontitis (1995)	Norway, Akershus	clusterIII	10	14	13	14	12	13	13	3
+AH818	B.c_group AH818	Human, periodontitis (1995)	Brazil, Curitiba	clusterIII	2	35	37	39	34	32	37	39
+AH819	B.c_group AH819	Human, periodontitis (1995)	Norway, Oslo	clusterIII	10	35	13	14	12	34	13	40
+AH820	B.c_group AH820	Human, periodontitis (1995)	Norway, Akershus	clusterIII	2	35	37	39	34	32	37	39
+AH823	B.c_group AH823	Human, periodontitis (1996)	Norway, Oslo	clusterIII	10	35	13	14	12	34	13	40
+AH824	B.c_group AH824	Human, periodontitis (1996)	Norway, Akershus	clusterIII	10	35	13	14	12	34	13	40
+AH825	B.c_group AH825	Human, periodontitis (1996)	Norway, Akershus	clusterIII	10	35	13	14	12	34	13	40
+AH826	B.c_group AH826	Human, periodontitis (1996)	Norway, Rogaland	clusterIII	10	35	13	14	12	34	13	40
+AH827	B.c_group AH827	Human, periodontitis (1996)	Norway, Hedmark	clusterIII	10	35	13	14	12	34	13	40
+AH828	B.c_group AH828	Human, periodontitis (1996)	Norway, Oslo	clusterIII	10	35	13	14	12	34	13	40
+AH829	B.c_group AH829	Human, periodontitis (1996)	Norway, Akershus	clusterIII	10	35	13	14	12	34	13	40
+AH831	B.c_group AH831	Human, periodontitis (1996)	Norway, Oslo	clusterIII	10	35	38	14	12	34	38	42
+AH840	B.c_group AH840			clusterIII	10	14	13	36	12	13	13	43
+AH889	B.c_group AH889	Human, blood	Norway	clusterIV	3	13	12	13	11	30	12	30
+AH1123	B.c_group 9823 (AH1123)	Human	France	clusterIII	2	2	2	2	2	2	2	45
+AH1127	B.c_group 9843 (AH1127)	Human	France	clusterIII	2	3	3	3	2	2	2	46
+AH1129	B.c_group BC004 (AH1129)	Human, eye	USA, Oklahoma	clusterIV	3	4	4	4	3	3	3	47
+AH1131	B.c_group BC029 (AH1131)	Human, eye	USA, Oklahoma	unclustered	4	5	5	5	4	4	4	48
+AH1132	B.c_group BC030 (AH1132)	Human, eye	USA, Oklahoma	clusterIV	3	6	6	6	5	5	5	49
+AH1135	B.c_group S8553 (AH1135)	Soil, clearing station mud (1997) [from the site of an anthrax outbreak]	France, Alps mountains	clusterIII	2	7	2	7	2	2	6	50
+AH1247	B.c_group 97-79 (AH1247)	Soil (1997) [from the site of an anthrax outbreak]	France, Pyrenees mountains	clusterV	6	9	8	9	7	7	8	52
+AH1270	B.c_group AH1270	Human, cervix; Reykjavik University Hospital (2000) [from the same hospital as isolates AH1271, AH1272, and AH1273]	Iceland, Reykjavik	clusterII	7	10	9	10	8	8	9	53
+AH1293	B.c_group AH1293	Human, blood	Norway, Tromso	clusterIV	3	13	12	13	11	11	12	56
+AH1294	B.c_group AH1294	Human, blood	Norway, Tromso	clusterIV	3	13	12	13	11	11	12	56
+7700	B.anthracis Sterne 7700 (95-31)	[pXO1-/pXO2-]	Africa	clusterIII	24	36	35	18	32	32	33	1
+ATCC14579	B.cereus type strain ATCC14579 (AH923, BGSC6A5, KB001, KCTC3624)	Other, Farm, cow-shed air (1916)	USA	clusterIV	3	13	12	13	11	12	12	33
+ATCC35646	B.thuringiensis israelensis ATCC35646 (IMSNU12089, KB005, KCTC1509, HD522)	Other, sewage	Israel	clusterIV	17	39	0	23	36	35	23	-1
+NVH0391/98	B.cytotoxicus type strain NVH0391-98 (KB007, CytK, DSM22905, CIP110041, NVH0391/98)	Food, Vegetable puree (1998) [diarrheal food poisoning outbreak, fatal]	France, Essone	clusterVII	48	40	39	41	37	36	39	117
+E33L	B.cereus E33L (Zebra Killer)	Animal, Carcass of dead zebra (1996) [two complete genomes sequenced for this strain with identical MLST sequences]	Namibia, Etosha National Park	clusterIII	27	41	40	42	38	37	40	57
+KBAB4	B.weihenstephanensis KBAB4	Soil, Forest soil (2000)	France, Versailles	clusterVI	22	20	26	19	23	6	31	118
+G9241	B.cereus G9241 (2000031673, B06_002)	Human, sputum and blood (1994) [human pneumonia; carries pXO1 plasmid with anthrax virulence genes and produces a polysaccharide capsule; two complete genomes sequenced for this strain with identical MLST sequences]	USA, Louisiana	clusterIII	28	42	14	43	39	38	41	58
+97-27	B.thuringiensis konkukian 97-27 (97/027, CEB97/27, CEB97/027)	Human, tissue necrosis (1995)	Yugoslavia, Bosnia-Herzegovina, Sarajevo	clusterIII	2	35	41	44	40	39	17	59
+WestNA	B.anthracis Western North America USA6153 (A0071)	Animal, Bison [pXO1+/pXO2+]	Canada	clusterIII	24	36	35	18	32	32	33	1
+Vollum	B.anthracis Vollum	[this strain is used in research studies and is found in the UK, Spain, and Zimbabwe; pXO1+/pXO2+; two complete genomes sequenced for this strain with identical MLST sequences; differences from isolate A0488 in adk and glpF sequences]		clusterIII	24	36	35	18	32	32	33	1
+Sterne34F2	B.anthracis Sterne 34F2 (ASC245)	Animal, cattle (cow) (1937) [Animal vaccine strain; pXO1+/pXO2-]	South Africa	clusterIII	24	36	35	18	32	32	33	1
+KrugerB	B.anthracis Kruger B	[pXO1+/pXO2+]	South Africa, Kruger National Park	clusterIII	24	36	42	18	32	32	33	60
+Florida	B.anthracis Ames Florida (A2012)	Human [from bioterror mailing attacks in 2001; pXO1+/pXO2+]	USA, Florida	clusterIII	24	36	35	18	32	32	33	1
+CNEVA	B.anthracis CNEVA 9066 (A0402, K1887)	Human [pXO1+/pXO2+]	France (Southern)	clusterIII	24	36	42	18	32	32	33	60
+Australia94	B.anthracis Australia94 (K4834, A0039, 29/32)	Animal, cattle (Bovine) (1994) [pXO1+/pXO2+]	Australia, Victoria Province	clusterIII	24	36	35	18	32	32	33	1
+AmesAnc	B.anthracis Ames Ancestor (A0581, A2084)	Animal, cattle (Cow) (1981) [this strain is the progenitor of all the Ames strains used as research tools in laboratories around the world; pXO1+/pXO2+]	USA, Texas, Sarita	clusterIII	24	36	35	18	32	32	33	1
+A1055	B.anthracis A1055 (2000031021, GroupC)	[belongs to the divergent C branch; pXO1-/pXO2+]	USA, Louisiana	clusterIII	24	36	37	18	32	32	33	61
+AH1124	B.c_group 9829 (AH1124)	Human	France	clusterIII	10	35	43	45	41	13	13	62
+AH1125	B.c_group 9801 (AH1125)	Human	France	clusterII	29	43	44	46	42	40	42	63
+AH1126	B.c_group 9842 (AH1126)	Human	France	clusterV	6	44	8	9	7	41	8	64
+AH1130	B.c_group BC008 (AH1130)	Human, eye	USA, Oklahoma	clusterIV	30	4	16	47	3	3	8	65
+AH1133	B.c_group BC031 (AH1133)	Human, eye	USA, Oklahoma	unclustered	31	45	45	48	43	42	43	66
+AH1134	B.cereus BC006 (AH1134)	Human, eye [pediatric endophthalmitis case]	USA, Oklahoma	clusterIV	3	4	4	4	3	3	3	47
+WSBC10201	B.weihenstephanensis WSBC10201 (AH1143)	Dairy products, pasteurized milk (1992) [from the same dairy as isolates WSBC10028, WSBC10029, WSBC10030, WSBC10031, WSBC10042, WSBC10204, WSBC10205, WSBC10206, WSBC10208, and WSBC10211]	Germany, Weihenstephan	clusterVI	32	46	23	19	23	18	31	68
+AH1308	B.c_group AH1308	Human, faeces/stools	Germany, Karlsruhe	clusterV	6	9	8	9	7	7	8	52
+AH1309	B.c_group AH1309	Human, faeces/stools	Germany, Karlsruhe	clusterV	6	9	8	49	7	7	8	69
+AH1310	B.c_group AH1310	Human, faeces/stools	Germany, Karlsruhe	clusterV	6	9	8	9	7	7	3	70
+AH1311	B.c_group AH1311	Other, probiotic	Germany, Karlsruhe	clusterV	6	9	8	9	7	7	8	52
+AH1312	B.c_group AH1312	Human, blood	Germany, Karlsruhe	clusterV	6	9	8	9	7	7	8	52
+BGSC4AB1	B.thuringiensis morrisoni AH1354 (BGSC4AB1)			clusterIII	33	35	46	44	40	32	44	71
+BGSC4AY1	B.thuringiensis brasilensis AH1356 (BGSC4AY1, T39001)	Food, black pepper powder	Brazil	clusterIII	2	47	47	44	45	32	45	73
+295171	B.c_group 295171	Human, blood	UK	clusterIV	34	11	1	23	36	35	46	75
+295618	B.c_group 295618	Other, heroin	UK	clusterIV	34	11	1	23	36	35	46	75
+AH338	B.mycoides AH338	Soil (1992)	Norway, Oslo	clusterV	6	9	8	9	47	43	8	76
+AH535	B.c_group AH535	Soil, strawberry field (1993)	Norway, Moss	clusterVI	35	48	49	50	48	44	47	77
+AH723	B.c_group AH723	Human, eye	Norway, Skien	clusterIII	37	3	3	3	2	2	2	81
+AH725	B.c_group AH725	Human, eye	Norway, Skien	clusterIV	3	13	12	13	11	12	12	33
+AH729	B.c_group AH729	Human, wound secret	Norway, Skien	clusterII	8	51	10	11	9	9	51	82
+AH730	B.c_group AH730	Human, urine	Norway, Skien	clusterIII	38	52	50	52	50	46	14	83
+AH814	B.c_group AH814	Human, periodontitis (1995)	Norway, Akershus	clusterIV	3	13	12	13	51	47	12	84
+AH815	B.c_group AH815	Human, periodontitis (1995)	Norway, More og Romsdal	clusterIV	39	53	51	1	52	12	1	85
+AH886	B.c_group AH886	Human, blood	Norway, Oslo	clusterIII	40	35	12	53	53	13	52	86
+AH891	B.c_group AH891	Human, blood	Norway, Oslo	clusterIII	26	35	52	40	14	48	15	87
+AH893	B.cereus AH893	Human, wound	Norway, Tromso	clusterIII	41	35	53	54	54	49	53	88
+BtAlHakam	B.thuringiensis Al Hakam (BtAlHakam)	Other, suspected bioweapons facility	Iraq	clusterIII	2	3	3	3	2	32	17	89
+B03_002	B.cereus B03_002	Animal, cattle (cow)	France	clusterV	6	9	8	9	7	7	8	52
+B03_003	B.cereus B03_003	Animal, cattle (cow)	France	clusterV	6	9	8	9	7	7	8	52
+B04_002	B.anthracis B04_002	Animal, dead sheep	Spain	clusterIII	24	36	35	18	46	32	33	90
+B04_022	B.anthracis B04_022	Human (1996) [anthrax]	France, Poitiers	clusterIII	24	36	35	18	46	32	33	90
+B04_025	B.anthracis B04_025	Animal, cattle (cow)	France	clusterIII	24	36	42	18	32	32	33	60
+B05_004	B.cereus B05_004	Animal, parrot	France	clusterIV	3	13	12	13	11	50	12	91
+B05_010	B.cereus B05_010	Human	France	clusterIII	10	14	13	14	12	13	13	3
+B05_011	B.cereus B05_011	Human	France	clusterIII	11	54	54	55	50	38	14	92
+B06_001	B.cereus B06_001	Human	Madagascar	clusterIII	10	14	55	36	12	13	13	93
+B06_003	B.cereus B06_003	Human, blood	Norway	clusterIII	10	14	13	36	12	13	13	43
+B06_004	B.cereus B06_004	Human	Norway	clusterIII	10	2	13	36	12	13	13	94
+B06_005	B.cereus B06_005	Human, wound	France	clusterIV	34	11	1	23	36	35	46	75
+B06_006	B.cereus B06_006	Human, blood	France	clusterII	7	55	56	56	55	51	54	95
+B06_007	B.cereus B06_007	Human, cutaneous	Norway	clusterIII	10	14	13	36	12	13	13	43
+B06_008	B.cereus B06_008	Human, blood	France	clusterIII	10	14	13	14	12	13	13	3
+B06_009	B.cereus B06_009	Human, Cerebrospinal fluid	France	clusterIII	12	16	15	36	14	15	15	2
+B06_010	B.cereus B06_010	Human, Cerebrospinal fluid	Tahiti, Papeete	clusterIV	3	56	56	13	11	52	55	96
+B06_011	B.cereus B06_011	Human	France	clusterIV	3	4	57	57	56	53	56	97
+B06_012	B.cereus B06_012	Human	France	clusterIV	3	57	56	13	11	54	12	98
+B06_013	B.cereus B06_013	Human, blood	France	clusterII	8	51	10	11	9	9	10	99
+B06_014	B.cereus B06_014	Human	France	clusterII	8	51	10	11	9	9	10	99
+B06_015	B.cereus B06_015	Human, drainage tube	France	clusterV	6	58	58	9	57	7	8	100
+B06_016	B.cereus B06_016	Other, Slaughterhouse floor	France	clusterII	3	59	10	25	24	40	57	101
+B06_017	B.cereus B06_017	Human, blood	France	clusterV	42	9	8	9	7	7	8	102
+B06_018	B.cereus B06_018	Human, peritoneal	France	clusterIII	10	14	13	14	12	13	13	3
+B06_019	B.cereus B06_019	Human, wound	France	clusterIV	43	13	59	13	11	55	58	103
+B06_020	B.cereus B06_020	Human, wound	France	clusterIII	2	35	3	39	58	56	59	104
+B06_021	B.cereus B06_021	Human, blood	France	clusterII	7	10	9	10	8	8	9	53
+B06_022	B.cereus B06_022	Human, blood	France	clusterII	7	10	9	10	8	8	9	53
+B06_023	B.cereus B06_023	Human, wound	France	clusterV	6	9	8	9	7	7	8	52
+B06_024	B.cereus B06_024	Human, blood	France	clusterIV	3	60	59	13	11	12	60	105
+B06_025	B.cereus B06_025	Human, blood	Guyane	clusterIII	12	16	38	16	59	15	15	106
+B06_026	B.cereus B06_026	Human, wound	France	unclustered	44	61	60	58	60	57	3	107
+B06_027	B.cereus B06_027	Human, wound	France	clusterIII	2	62	61	59	46	32	37	108
+B06_028	B.cereus B06_028	Human, blood	France	clusterII	2	49	62	60	61	58	61	109
+B06_029	B.cereus B06_029	Human, blood	France	clusterIV	45	4	63	47	62	59	62	110
+B06_030	B.cereus B06_030	Human, bronchic	France	clusterVI	46	63	64	61	63	60	63	111
+B06_031	B.cereus B06_031	Human	Martinique	clusterIII	12	16	38	16	59	15	15	106
+B06_032	B.cereus B06_032	Human	France	clusterIV	34	39	1	23	64	35	23	112
+B06_033	B.cereus B06_033	Human, blood	France	clusterIV	3	64	6	38	65	55	5	113
+B06_034	B.cereus B06_034	Human	France	clusterIV	3	65	63	62	66	16	3	114
+B06_035	B.cereus B06_035	Human	France	clusterIV	13	4	56	33	3	61	64	115
+B06_036	B.cereus B06_036	Human, blood	Tahiti, Papeete	clusterIV	3	13	12	13	11	30	12	30
+B06_038	B.anthracis B06_038	Soil	Italy	clusterIII	24	36	35	18	32	32	33	1
+B06_039	B.anthracis B06_039	Soil [from a site where a dead animal was buried 2 years before]	Italy	clusterIII	24	36	35	18	46	32	33	90
+B06_040	B.anthracis B06_040	Soil	Italy	clusterIII	24	36	35	18	32	32	33	1
+B06_041	B.cereus B06_041	Soil	Italy	clusterVI	47	20	65	63	23	18	65	116
+03BB108	B.cereus 03BB108	Other, dust in workspace associated with clinical case (isolate 03BR1283) (2003) [two complete genomes sequenced for this strain with identical MLST sequences]	USA, Texas	clusterIII	2	7	66	3	2	32	2	119
+B4264	B.cereus B4264 (2002734361)	Human, blood and pleural fluid (1969) [human fatal pneumonia]		clusterIV	3	6	-1	38	11	5	5	-2
+TI	B.anthracis Tsiankovskii-I (TI)	[Soviet Union livestock vaccine strain; pXO1+/pXO2+]	USSR	clusterIII	24	36	35	18	32	32	33	1
+G9842	B.cereus G9842	Human, faeces/stools (1996) [from the same food poisoning outbreak as isolates G9843 and G9844; human diarrhea]	USA, Nebraska	clusterIV	17	11	1	23	64	35	66	120
+H3081.97	B.cereus H3081.97 (2002734506)	Food (1997) [emetic toxin/cereulide producer; from the same food poisoning outbreak as isolates H3074.97 and H3076.97; outbreak linked to rice]	USA, Texas	clusterIII	0	14	67	36	12	13	13	-3
+INRAAF2	B.cytotoxicus INRA AF2	Food, potato puree (2003) [connected to a food poisoning case]	France	clusterVII	48	40	39	41	37	36	39	117
+NVH0597/99	B.cereus NVH0597-99 (NVH0597/99)	Food, spice mix (1999) [strain believed to be the cause of a diarrheal food poisoning outbreak]	Norway	clusterIII	2	35	3	39	58	56	59	104
+NVH0883/00	B.cytotoxicus NVH0883/00	Food, spices (2000)	Norway	clusterVII	48	40	39	41	67	62	39	121
+ATCC11950	B.cereus W (ATCC11950)	Soil [carries the prophage W; W and its lytic variant, phage gamma, infect B.anthracis]		clusterIII	2	35	68	39	40	32	17	67
+A0174	B.anthracis LSU174 (K1979, A0174, 74-412C-8)	Animal, cattle (bovine) (1974) [pXO1+/pXO2-]	Canada	clusterIII	24	36	0	18	32	32	33	-4
+A0193	B.anthracis LSU193 (K1256, A0193, 96-10355)	Animal, cattle (cow) (1996) [pXO1+/pXO2+]	USA, South Dakota	clusterIII	0	36	0	18	32	32	33	-5
+A0389	B.anthracis A0389 (K1938, 89)	[pXO1+/pXO2+]	Indonesia, Bekasi	clusterIII	24	36	0	18	32	32	33	-4
+A0442	B.anthracis LSU442 (K6835, A0442, 28, K88)	Animal, Kudu (1975) [pXO1+/pXO2+]	South Africa, Kruger National Park	clusterIII	0	36	0	18	32	32	33	-5
+A0465	B.anthracis LSU465 (K2762, A0465, RA3, 6445/RA3)	Animal, cattle (Cow), spleen (1997) [two complete genomes sequenced for this strain with identical MLST sequences; pXO1+/pXO2+]	France, Pyrenees mountains	clusterIII	24	36	42	18	32	32	33	60
+A0488	B.anthracis type strain LSU488 (K4596, A0488, ATCC14578, Vollum)	Animal, cattle (cow) (1935) [pXO1+/pXO2+; differences from isolate Vollum in adk and glpF sequences]	UK, Oxfordshire	clusterIII	0	36	0	18	32	32	33	-5
+Q1	B.cereus Q1	Other, deep-subsurface oil reservoir	China (Northeastern), Daqing oil field	clusterIII	10	35	13	14	12	34	13	40
+ATCC4342	B.cereus ATCC4342 (AH226, AH821)	Dairy products, milk (1900) [sensitive to gamma phage infecting B.anthracis; three complete genomes sequenced for this strain with identical MLST sequences]	USA	clusterIII	11	15	14	15	13	63	14	4
+BGSC4AJ1	B.thuringiensis monterrey BGSC4AJ1 (AH1355, GM33, T28001)	[produces a polyglutamate capsule resembling that of B.anthracis]	Mexico	clusterIII	2	35	46	39	44	32	45	72
+BGSC4CC1	B.thuringiensis pulsiensis BGSC4CC1 (T65001, AH1357, NARC Bt17)	Soil, grain field	Pakistan	clusterIII	2	47	48	18	46	32	37	74
+Bt407	B.thuringiensis 407 (Bt407, AH1031)	Other, Pasteur Institute [well studied isolate that has been cured of the plasmid that encodes the insecticidal crystal toxin; two complete genomes sequenced for this strain with identical MLST sequences]	France, Paris	clusterIV	1	67	1	1	1	1	1	44
+03BB102	B.cereus 03BB102 (2002734580)	Human, blood (2003) [human fatal pneumonia; carries pXO1 plasmid with anthrax virulence genes]	USA, Texas	clusterIII	2	2	3	3	2	32	17	122
+172560.W	B.cereus 172560.W	Human, burn wound (2003) [human wound infection]	UK, Scotland, Glasgow	clusterIV	3	68	63	47	62	16	3	123
+F95/8201	B.cereus 95/8201 (F95/8201)	Human, endocarditis; Prince Charles Hospital (1995)	UK, Wales, Merthyr Tydfil	clusterIII	33	35	37	44	40	32	17	124
+AH621	B.c_group AH621	Soil, heather soil (1994)	Norway, Singsas/Saetereng	clusterVI	5	20	19	20	18	18	19	9
+ATCC10792	B.thuringiensis thuringiensis type strain ATCC10792 (IMSNU12088, DSM2046, WS2734, AH1083, HD735, CIP53.137, KCTC3452, KCTC1034)	Animal, Insect, Mediterranean flour moth/mill moth (Ephestia kuhniella/Anagasta kuehniella)	Israel	clusterIV	1	67	1	1	1	1	1	44
+ATCC10876	B.cereus ATCC10876 (569, AH181, IMSNU13045, NRRLB-569, NCTC7464, KCTC1092)	Other, contaminated flask (1945) [well-studied strain used in many structural studies of the spore and exospore; two complete genomes sequenced for this strain with identical MLST sequences]		clusterIV	49	4	57	57	56	53	56	125
+BDRD-Cer4	B.cereus BDRD-Cer4	Other, Biological Defense Research Directorate (BDRD)	USA, Maryland, Rockville	clusterIV	3	13	12	13	11	12	12	33
+BDRD-ST196	B.cereus BDRD-ST196	Other, Biological Defense Research Directorate (BDRD)	USA, Maryland, Rockville	clusterVI	5	29	7	8	6	6	7	126
+BDRD-ST24	B.cereus BDRD-ST24	Other, Biological Defense Research Directorate (BDRD)	USA, Maryland, Rockville	clusterIV	50	13	69	13	11	30	12	127
+BDRD-ST26	B.cereus BDRD-ST26	Other, Biological Defense Research Directorate (BDRD)	USA, Maryland, Rockville	clusterIII	10	14	13	14	12	13	13	3
+BGSC4BA1	B.thuringiensis pondicheriensis BGSC4BA1 (T20a001, B23)	Soil	India	clusterIII	33	35	46	44	40	32	44	71
+BGSC4BD1	B.thuringiensis huazhongensis BGSC4BD1 (T40001, YBT-978)		China	clusterIV	3	69	59	64	69	65	67	129
+BGSC4Y1	B.thuringiensis tochigiensis BGSC4Y1 (117-72, HD868, AH460)	Other, soil or litter of silkworm (Bombyx mori)	Japan	clusterIII	11	70	14	55	50	38	14	130
+BGSC6E1	B.cereus BGSC6E1 (AH263, GP7)	[produces chitinase]		clusterIII	2	7	66	18	2	2	2	131
+CDC684	B.anthracis CDC684 (NRRL3495, NRS234)	[originally labeled B.megaterium; shows significant attenuation of virulence; pXO1+/pXO2+]		clusterIII	24	36	35	18	32	32	33	1
+DSM12442	B.pseudomycoides type strain DSM12442 (NRRLB-617, WS3118, KCTC3862)	Soil	Ghana or Sweden or USA	clusterI	52	71	70	65	70	66	68	132
+ATCC6462	B.mycoides type strain DSM2048 (ATCC6462, WS2641, NRS273, NCTC12974, CIP103472, KCTC3453)	Soil	Korea (South), Seoul	clusterVI	53	20	27	66	23	25	19	133
+F65185	B.cereus F65185 (2002734558)	Human, wound (2005) [from an open fracture; encapsulated isolate]	USA, New York	clusterIV	54	4	71	67	3	31	69	134
+IBL200	B.thuringiensis IBL200	Human, healthy human hand (1985) [israelensis-like serovar; bears Photorhabdus/Yersinia-like toxin genes]	USA, Maryland	clusterIV	55	72	72	68	71	35	70	135
+IBL4222	B.thuringiensis IBL4222	Animal, cat-s paw (1985) [israelensis-like serovar]	USA, Maryland	clusterIV	17	39	1	23	36	35	23	136
+m1293	B.cereus m1293 (BPS-2)	Dairy products, cream cheese (1987)	Brazil	clusterIII	10	35	73	45	72	13	13	137
+m1550	B.cereus m1550 (277/2)	Food, uncooked chicken (1987)	Brazil	clusterIV	3	6	6	69	5	67	5	138
+R_3098/03	B.cereus R309803 (R_3098/03)	Human, blood (2003) [human septicaemia]	UK, England	unclustered	44	61	60	58	60	57	62	140
+Rock1-15	B.cereus Rock1-15	Soil	USA, Maryland, Rockville	clusterIV	3	57	12	13	11	54	12	141
+Rock1-3	B.cereus Rock1-3	Soil	USA, Maryland, Rockville	clusterV	6	9	8	9	7	7	8	52
+Rock1-4	B.mycoides Rock1-4	Soil	USA, Maryland, Rockville	clusterI	56	73	75	65	74	69	71	142
+Rock3-17	B.mycoides Rock3-17	Soil	USA, Maryland, Rockville	clusterI	56	73	76	65	74	69	71	143
+Rock3-28	B.cereus Rock3-28	Soil	USA, Maryland, Rockville	clusterV	57	74	8	71	7	70	8	144
+Rock3-29	B.cereus Rock3-29	Soil	USA, Maryland, Rockville	clusterV	6	9	8	9	7	7	8	52
+Rock3-42	B.cereus Rock3-42	Soil	USA, Maryland, Rockville	clusterIII	2	62	77	44	75	71	17	145
+Rock3-44	B.cereus Rock3-44	Soil	USA, Maryland, Rockville	clusterI	58	75	78	72	76	72	72	146
+Rock4-18	B.cereus Rock4-18	Soil	USA, Maryland, Rockville	clusterV	6	9	79	9	77	7	8	147
+Rock4-2	B.cereus Rock4-2	Soil	USA, Maryland, Rockville	clusterIV	13	4	56	33	78	31	73	148
+T01001	B.thuringiensis thuringiensis T01001 (BGSC4A3, HD2, DSM6029)	Animal, Insect, Mediterranean flour moth/mill moth (Ephestia kuhniella/Anagasta kuehniella) (1958)	Canada	clusterIV	1	67	1	1	1	1	1	44
+T03a001	B.thuringiensis kurstaki T03a001	Animal, Insect, Mediterranean flour moth/mill moth (Ephestia kuhniella/Anagasta kuehniella) (1962)	France	clusterIV	13	4	56	33	3	61	64	115
+T04001	B.thuringiensis sotto T04001 (BGSC4E4, HD6)		Canada	clusterIV	34	11	-2	23	36	35	46	-7
+T13001	B.thuringiensis pakistani T13001 (Pak94)	Animal, Insect, Lepidoptera (1976)	Pakistan	clusterIV	3	76	69	73	11	12	58	149
+A0248	B.anthracis A0248 (K2802, 28, LSU248)	Human (1968) [pXO1+/pXO2+]	USA, Ohio	clusterIII	24	36	35	18	32	32	33	1
+08CEB44BAC	B.cytotoxicus 08CEB44BAC	Food, cooked semolina (2008) [related to food poisoning}	France	clusterVII	48	40	39	74	37	73	39	150
+7_6_55CFAA_CT2	B.c_group 7_6_55CFAA_CT2	Human, healthy biopsy tissue from a patient with Crohn-s disease		clusterIV	3	4	52	75	3	16	3	151
+BMB171	B.thuringiensis kurstaki BMB171	Other, acrystalliferous mutant derived from B.thuringiensis kurstaki strain YBT-1463 cured of the insecticidal toxin plasmid at Huazhong Agricultural University	China, Wuhan	clusterIV	3	13	69	13	11	30	12	152
+CI	B.cereus biovar anthracis CI	Animal, great apes (chimpanzees) (2001,2002) [previously named atypical B.anthracis because it carries pXO1 and pXO2 plasmids with anthrax virulence and polyglutamate capsule genes; produces a capsule]	Ivory Coast, Tai National Park	clusterIII	2	35	3	76	79	32	59	153
+CT-43	B.thuringiensis chinensis CT-43		China	clusterIV	1	67	1	1	1	1	1	44
+CVUAS2833	B.cytotoxicus CVUAS2833	Food, potato puree (2007) [related to food poisoning]	Germany	clusterVII	48	40	39	41	37	36	39	117
+NC7401	B.cereus NC7401	Human, faeces/stools or vomit (1974 or 1994) [human vomiting, emetic food poisoning outbreak, emetic toxin/cereulide producer]	Japan	clusterIII	10	14	13	14	12	13	13	3
+SJ1	B.cereus SJ1	Other, chromium-contaminated wastewater of a metal electroplating factory [chromate-resistant and reducing isolate]	China, Guangdong	clusterIII	2	77	80	43	80	74	17	154
+YBT-020	B.thuringiensis finitimus YBT-020 (BGSC4B4)			clusterIII	59	78	14	77	41	13	13	155
+LFB1263	B.cereus LFB-FIOCRUZ1263 (LFB1263)	Soil (2004)	Brazil, Rio Grande do Sul	clusterIV	13	79	56	33	78	31	16	156
+LFB1414	B.thuringiensis LFB-FIOCRUZ1414 (LFB1414)	Food, Coffee powder (2006)	Brazil	clusterIV	17	39	1	1	36	35	23	157
+LFB1561	B.thuringiensis LFB-FIOCRUZ1561 (LFB1561)	Dairy products, pasteurized whole milk (2011)	Brazil	clusterIV	17	-1	1	23	36	35	12	-8
+LFB1588	B.thuringiensis LFB-FIOCRUZ1588 (LFB1588)	Dairy products, pasteurized whole milk (2011)	Brazil	clusterIV	34	39	1	23	64	35	46	158
+LFB1619	B.thuringiensis LFB-FIOCRUZ1619 (LFB1619)	Dairy products, pasteurized whole milk (2011)	Brazil	clusterIV	3	79	63	78	-1	16	3	-9
+LFB1669	B.cereus LFB-FIOCRUZ1669 (LFB1669)	Soil (2012)	Brazil, Parana	clusterIV	1	67	56	1	81	75	23	159
+LFB1687	B.cereus LFB-FIOCRUZ1687 (LFB1687)	Animal, Insect, Culicidae (2008)	Brazil, Sao Paulo	clusterIV	1	67	1	1	82	1	23	160
+LFB1689	B.cereus LFB-FIOCRUZ1689 (LFB1689)	Animal, Insect, Culicidae (2008)	Brazil, Sao Paulo	clusterIV	1	67	1	79	83	76	23	161
+LFB1691	B.cereus LFB-FIOCRUZ1691 (LFB1691)	Animal, Insect, Culicidae (2009)	Brazil, Sao Paulo	clusterIV	1	39	1	80	36	1	23	162
+LFB196	B.cereus LFB-FIOCRUZ196 (LFB196)	Soil (1979)	Brazil, Rio de Janeiro	clusterIV	1	67	1	1	84	1	23	163
+LFB440	B.cereus LFB-FIOCRUZ440 (LFB440)	Food, Powder for pudding (1982)	Brazil	clusterIII	12	16	38	40	59	15	15	164
+LFB540	B.cereus LFB-FIOCRUZ540 (LFB540)	Food, Shake mix chocolate flavor (1982)	Brazil	clusterIV	3	68	63	47	85	3	3	165
+LFB541	B.cereus LFB-FIOCRUZ541 (LFB541)	Food, Rice cream (1982)	Brazil	clusterIV	3	13	12	13	11	12	12	33
+LFB766	B.cereus LFB-FIOCRUZ766 (LFB766)	Soil (1989)	Brazil, Rio de Janeiro	clusterIV	1	67	51	1	83	1	23	166
+LFB774	B.cereus LFB-FIOCRUZ774 (LFB774)	Soil (1989)	Brazil, Rio Grande do Sul	clusterIV	13	80	33	4	3	16	74	167
+LFB799	B.cereus LFB-FIOCRUZ799 (LFB799)	Food, Chocolate porridge (1991)	Brazil	clusterIII	-1	52	50	81	50	38	14	-10
+LFB803	B.cereus LFB-FIOCRUZ803 (LFB803)	Food, Formulated infant food (1991)	Brazil	clusterIV	3	4	16	82	66	16	16	168
+LFB821	B.cereus LFB-FIOCRUZ821 (LFB821)	Food, pepper (1993)	Brazil	clusterIII	10	81	81	35	11	77	13	169
+LFB970	B.cereus LFB-FIOCRUZ970 (LFB970)	Soil (1999)	Brazil, Parana	clusterIV	3	80	63	78	62	16	3	170
+192	B.cereus 192	Food, rice (2011)	China, Zhejiang Province	clusterIII	10	14	13	14	12	13	13	3
+03BB87	B.cereus 2002734342 (03BB87)	Human, blood (2003) [human fatal pneumonia; carries pXO1 plasmid with anthrax virulence genes and produces a polysaccharide capsule]	USA, Texas	clusterIII	28	42	14	43	39	38	41	58
+105Ne	B.cereus 105Ne	Other, Water (2011)	Switzerland, Neuchatel, Ponts-de-Martel	clusterV	6	9	8	9	7	7	8	52
+11kri323	B.mycoides 11kri323	Other, Water (2011)	Greece, Kavala, Krinides	unclustered	9	82	82	83	0	78	75	-11
+13061	B.cereus 13061			clusterIII	10	14	13	36	12	13	13	43
+2000031006	B.anthracis 2000031006	(1956)	USA, New Mexico	clusterIII	24	36	35	18	32	32	33	1
+2000031008	B.anthracis 2000031008		USA, Alabama	clusterIII	24	36	35	18	32	32	33	1
+2000031023	B.anthracis 2000031023	Animal, cattle (1957)		clusterIII	24	36	35	18	32	32	76	171
+2000031027	B.anthracis 2000031027	Animal, cattle (1957)	USA, Oklahoma	clusterIII	24	36	35	18	32	32	33	1
+2000031031	B.anthracis 2000031031	Human (1957)	USA, Massachusetts	clusterIII	24	36	35	18	32	32	33	1
+2000031038	B.anthracis 2000031038	(1957)		clusterIII	24	36	35	18	32	32	33	1
+2000031039	B.anthracis 2000031039	Animal, cattle (1957)		clusterIII	24	36	35	18	32	32	76	171
+2000031052	B.anthracis 2000031052	Animal, cattle (1956)	USA, Wyoming	clusterIII	24	36	37	18	32	32	33	61
+2000031075	B.anthracis 2000031075	Animal, cattle	South Africa	clusterIII	24	36	35	18	32	32	33	1
+2000031709	B.anthracis 2000031709	(1956)	USA, Carolinas	clusterIII	24	36	35	18	32	32	33	1
+2000031765	B.anthracis 2000031765			clusterIII	24	36	35	18	32	32	33	1
+2000032819	B.anthracis 2000032819			clusterIII	24	36	35	18	32	32	33	1
+2000032832	B.anthracis 2000032832			clusterIII	24	36	35	18	32	32	33	1
+2000032879	B.anthracis 2000032879	(1962)		clusterIII	24	36	35	18	32	32	33	1
+2000032892	B.anthracis 2000032892			clusterIII	24	36	35	18	86	32	33	172
+2000032951	B.anthracis 2000032951	Human (1958)		clusterIII	24	36	35	18	32	32	33	1
+2000032967	B.anthracis 2000032967			clusterIII	24	36	35	18	32	32	33	1
+2000032968	B.anthracis 2000032968			clusterIII	24	36	35	18	32	32	33	1
+2000032975	B.anthracis 2000032975	(1966)		clusterIII	24	36	35	18	32	32	33	1
+2000032979	B.anthracis 2000032979		USA, New Jersey	clusterIII	24	36	35	18	32	32	33	1
+2000032989	B.anthracis 2000032989			clusterIII	24	36	35	18	32	32	33	1
+2002013094	B.anthracis 2002013094	Soil (1956) [pXO1+/pXO2+; two complete genomes sequenced for this strain with identical MLST sequences]	USA	clusterIII	24	36	37	18	32	32	33	61
+219298	B.mycoides 219298 (BA0098)			clusterI	56	71	83	84	70	79	77	173
+3154	B.anthracis 3154	Soil	Bulgaria	clusterIII	24	36	35	18	32	32	33	1
+3166	B.anthracis 3166	Soil	Bulgaria	clusterIII	24	36	35	18	32	32	33	1
+3A	B.cereus 3a (FRI41)	Other, Food Research Institute, University of Wisconsin-Madison	USA, Wisconsin, Madison	clusterIII	33	35	37	44	40	32	17	124
+44-NIAH	B.anthracis 44-NIAH			clusterIII	24	36	35	18	32	32	33	1
+4599	B.anthracis Heroin Ba4599 (Ba4599)	Human, Scottish heroin user (2009)	UK, Scotland, Glasgow	clusterIII	24	36	35	18	32	32	33	1
+52-40-NIAH	B.anthracis 52-40-NIAH	Animal, horse (1940)	China	clusterIII	24	36	35	18	32	32	33	1
+52-G	B.anthracis 52-G	Animal, cattle (bovine) (2009) [pXO1+/pXO2+]	Georgia, Tbilisi	clusterIII	24	36	35	18	32	32	33	1
+8903-G	B.anthracis 8903-G	Soil (1997) [pXO1+/pXO2+]	Georgia, Gardabani	clusterIII	24	36	35	18	32	32	33	1
+9080-G	B.anthracis 9080-G	Soil (1998) [pXO1+/pXO2+]	Georgia, Gardabani	clusterIII	24	36	35	18	32	32	33	1
+95014	B.anthracis 95014	[pXO1+/pXO2-]		clusterIII	24	36	35	18	32	32	33	1
+A0157	B.anthracis A0157 (NR-1041)	Animal, Pig (1996) [derived from strain ATCC4728; pXO1-/pXO2+]	USA	clusterIII	24	36	35	18	32	32	33	1
+A0463	B.anthracis LSU463 (K5135, A0463, PAK-1)	Animal, sheep (1978) [reported as pXO1+/pXO2+ but no pXO2 sequence in genome]	Pakistan	clusterIII	24	36	35	18	32	32	33	1
+A1	B.cereus A1	Other, sludge of an anaerobic digestion reactor (2011) [efficient starch-utilizing producer of hydrogen]	China, Beijing	clusterIV	3	4	84	85	3	16	3	174
+A1039	B.anthracis A1039	Animal, cattle (1999)	Bolivia, Santa Cruz	clusterIII	24	36	35	18	32	32	76	171
+A1075	B.anthracis A1075	Animal, cattle [pXO1+/pXO2+]	Chile, Lago Ranco-Valdivia Agricola Quillin Va. Region	clusterIII	24	36	35	18	32	32	76	171
+A1144	B.anthracis A1144	[pXO1+/pXO2+; shows mucoid colony morphology]	Argentina	clusterIII	24	36	35	18	32	32	33	1
+A16	B.anthracis A16	[pXO1+/pXO2+]		clusterIII	24	36	35	18	32	32	33	1
+A16R	B.anthracis A16R	[attenuated variant of strain A16; pXO1+/pXO2-]		clusterIII	24	36	35	18	32	32	33	1
+A.Br.003	B.anthracis Scotland A.Br.003	Human, child cutaneous anthrax	UK, Scotland, Dundee	clusterIII	24	36	35	18	32	32	33	1
+AK47	B.thuringiensis AK47	Soil (2010)	India, Odisha	clusterIV	13	4	56	33	3	61	64	115
+AND1407	B.c_group AND1407	Food		clusterIII	10	14	13	36	12	13	13	43
+ANSES00-82	B.anthracis ANSES 00-82 (00-82)	Animal, cattle (bovine) (2000)	France, Savoie	clusterIII	24	36	42	18	32	32	33	60
+ANSES08-820	B.anthracis ANSES 08-8 20 (08-8_20)	Animal, cattle (bovine) (2008)	France, Doubs	clusterIII	24	36	35	18	32	32	33	1
+ANSES99-100	B.anthracis ANSES 99-100 (99-100)	Animal, cattle (bovine) (1999)	France, Nievre	clusterIII	24	36	35	18	32	32	33	1
+ATCC14185	B.anthracis ATCC14185 (K3700, A0267, LSU267, V770-NP-1R, V770-NP1-R)	Animal, cattle (bovine) (1951) [United States Human Vaccine strain; pXO1+/pXO2-; two complete genomes sequenced for this strain with identical MLST sequences]	USA, Florida	clusterIII	24	36	35	18	32	32	76	171
+B38V	B.mycoides B38V	Soil or plant, Sunflower (Helianthus annuus) rhizosphere (2010) [promotes sunflower growth]	Brazil, Rio Grande do Sul	clusterVI	5	20	65	19	87	80	7	175
+B5-2	B.c_group B5-2	Soil	China	clusterII	60	83	85	86	88	81	78	176
+BA1004	B.anthracis Ames BA1004	(2000) [pXO1+/pXO2+]	USA, Texas	clusterIII	24	36	35	18	32	32	33	1
+BA1035	B.anthracis BA1035	Human, Clinical [pXO1+/pXO2+]	South Africa	clusterIII	24	36	42	18	32	32	33	60
+BcAlHakam	B.cereus Al Hakam (BcAlHakam)	Other, suspected bioweapons facility	Iraq	clusterI	56	71	83	84	70	79	77	173
+BcFL2013	B.cereus BcFL2013			clusterIII	28	42	14	43	39	38	41	58
+BCT-7112	B.toyonensis type strain BCT-7112 (CECT876, NCIMB14858)	Soil (1966) [active ingredient of the feed additive preparation Toyocerin]	Japan, Izu, Shizuoka Prefecture	clusterV	6	9	8	9	7	7	8	52
+BF1	B.anthracis BF1	Animal, cattle (cow) carcass (2009) [from a cow that had succumbed to anthrax; pXO1+/pXO2+]	Germany, Bavaria	clusterIII	24	36	42	18	32	32	33	60
+BFV	B.anthracis BFV (BA0052)	[pXO1+/pXO2+]		clusterIII	24	36	35	18	32	32	33	1
+BGSC4AA1	B.thuringiensis morrisoni BGSC4AA1	Soil (1987) [originally classified as B.thuringiensis tenebrionis]		clusterIV	34	39	1	23	64	35	23	112
+BGSC4Q7	B.thuringiensis israelensis BGSC4Q7 (4Q2-81, AH424, KB006)	Soil (1976) [plasmid-cured; acrystalliferous; widely used as a recombination host]	Israel	clusterIV	17	39	1	23	36	35	23	136
+BHP	B.mycoides BHP	Soil	Papua New Guinea	unclustered	68	90	95	96	97	89	88	177
+BMG1.7	B.c_group BMG1.7			clusterIV	13	4	56	33	3	61	64	115
+BtB2-4	B.c_group BtB2-4			clusterVI	53	20	7	97	23	6	19	178
+Btm27	B.thuringiensis mexicanensis 27 (BGSC4AC2, Btm27)	Animal, Insect, Citrus mealybug (Planococcus citri) (2010)	Egypt	clusterIV	13	4	56	33	3	61	64	115
+Canadian_bison	B.anthracis Canadian_bison	Animal, Bison [pXO1+/pXO2+]	Canada	clusterIII	24	36	35	18	32	32	33	1
+Carbosap	B.anthracis Carbosap	[attenuated, toxigenic, capsulated strain; shows significant attenuation of virulence; used in Italy as a live spore vaccine for cattle and sheep; pXO1+/pXO2+; two complete genomes sequenced for this strain with identical MLST sequences between]	Somalia, Asmara, Institute Vacci nogeno or Italy, Rome	clusterIII	24	36	35	18	32	32	33	1
+CER057	B.c_group CER057			clusterVI	53	20	7	97	23	6	19	178
+CER074	B.c_group CER074			clusterVI	53	20	7	97	23	6	19	178
+Cvac02	B.anthracis Cvac02	Animal, dead cow blood (2013) [from the site of an anthrax outbreak]	China, Liaoning Province	clusterIII	24	36	35	18	32	32	33	1
+CZC5	B.anthracis CZC5	Animal, Hippopotamus tissues (2011) [from hippopotamuses that had died during an anthrax outbreak]	Zambia	clusterIII	24	36	35	18	32	32	33	1
+D17	B.cereus D17 (FRI13)	Other, Food Research Institute, University of Wisconsin-Madison	USA, Wisconsin, Madison	clusterIII	2	3	3	98	2	2	2	179
+DAR81934	B.thuringiensis DAR81934	[exhibits molluscicidal activity toward the pest snail Cernuella virgata]	Australia, Port Campbell National Park	clusterIV	34	11	1	23	36	35	23	180
+DB27	B.thuringiensis DB27	[highly nematicidal]		clusterIV	69	65	56	47	66	16	3	181
+deltaSterne	B.anthracis delta Sterne	[pXO1-/pXO2-]		clusterIII	24	36	35	18	32	32	33	1
+DSM11821	B.weihenstephanensis type strain WSBC10204 (DSM11821, AH1145, KB008, NBRC101238)	Dairy products, pasteurized milk (1992) [from the same dairy as isolates WSBC10028, WSBC10029, WSBC10030, WSBC10031, WSBC10042, WSBC10201, WSBC10205, WSBC10206, WSBC10208, and WSBC10211; two complete genomes sequenced for this strain with identical MLST sequences		clusterVI	5	29	7	8	6	6	7	126
+DSM4222	B.cereus F837/76 (AH188, KBBI3, DSM4222)	Human, wound (1976) [efficient diarrheal enterotoxin producer from prostate operation wound infection]	UK	clusterIII	2	2	2	101	2	32	2	182
+Et10/1	B.thuringiensis Et10/1	Other, Water (2011) [altitude 3997 m.]	Chile, Lirima thermal springs	clusterIII	40	78	96	99	41	13	13	183
+F	B.cereus F	Soil, ancient permafrost aged nearly 3 million years	Russia, Yakutia	clusterIII	12	16	38	100	59	15	15	184
+F1-15	B.cereus F1-15			clusterIII	10	14	13	14	12	13	13	3
+FJAT-13831	B.bingmayongensis type strain FJAT-13831 (CGMCC1.12043, DSM25427)	Soil (2010) [soil on the Terracotta Warriors from the No. 1 pit of the Mausoleum of the First Qin Emperor]	China, Shaanxi (Xi-an City)	clusterI	70	91	97	102	98	90	89	185
+FM1	B.cereus FM1			clusterIII	71	42	14	43	100	38	41	186
+FORC005	B.cereus FORC 005	Food, chicken cutlett (2014)	Korea (South), Inchon	clusterIV	3	6	6	38	101	12	5	187
+FRI35	B.cereus FRI-35 (FRI35)			clusterIII	26	35	38	40	35	13	38	188
+FSLH7-687	B.weihenstephanensis FSL H7-687	Dairy products, pasteurized milk (2005)	USA	clusterVI	53	92	7	19	23	91	19	189
+FSLR5-860	B.weihenstephanensis FSL R5-860	Dairy products, pasteurized milk (2006)	USA	clusterIV	3	13	98	13	11	12	12	190
+FT9	B.cereus FT9	Other, hot springs	Brazil, Caldas Novas, Goias	clusterIII	11	15	14	103	50	63	90	191
+G1O-1	B.c_group BAG1O-1	Soil	USA, Massachusetts, Boston	unclustered	9	12	86	87	89	82	79	192
+G1O-2	B.c_group BAG1O-2	Soil	USA, Massachusetts, Boston	clusterV	6	9	8	9	7	7	8	52
+G1O-3	B.c_group BAG1O-3	Soil	USA, Massachusetts, Boston	clusterIV	1	67	1	1	83	1	80	193
+G1X1-1	B.c_group BAG1X1-1	Soil	USA, Massachusetts, Boston	clusterIV	61	84	87	88	90	83	81	194
+G1X1-2	B.c_group BAG1X1-2	Soil	USA, Massachusetts, Boston	clusterIV	1	67	1	1	83	1	23	195
+G1X1-3	B.c_group BAG1X1-3	Soil	USA, Massachusetts, Boston	unclustered	9	12	86	87	89	82	79	192
+G1X2-1	B.c_group BAG1X2-1	Soil	USA, Massachusetts, Boston	clusterIV	61	84	87	88	90	83	81	194
+G1X2-2	B.c_group BAG1X2-2	Soil	USA, Massachusetts, Boston	clusterIV	61	84	87	88	90	83	81	194
+G1X2-3	B.c_group BAG1X2-3	Soil	USA, Massachusetts, Boston	clusterIV	61	84	87	88	90	83	81	194
+G2O-1	B.c_group BAG2O-1	Soil	USA, Massachusetts, Boston	clusterIV	61	84	87	88	90	83	81	194
+G2O-2	B.c_group BAG2O-2	Soil	USA, Massachusetts, Boston	clusterV	6	9	88	9	7	7	8	196
+G2O-3	B.c_group BAG2O-3	Soil	USA, Massachusetts, Boston	clusterII	60	83	85	86	88	81	78	176
+G2X1-1	B.c_group BAG2X1-1	Soil	USA, Massachusetts, Boston	unclustered	62	85	89	89	91	84	82	197
+G2X1-2	B.c_group BAG2X1-2	Soil	USA, Massachusetts, Boston	clusterII	7	59	10	25	24	40	83	198
+G2X1-3	B.c_group BAG2X1-3	Soil	USA, Massachusetts, Boston	unclustered	63	86	90	89	91	84	82	199
+G3O-1	B.c_group BAG3O-1	Soil	USA, Massachusetts, Boston	clusterII	60	83	85	90	92	85	78	200
+G3O-2	B.c_group BAG3O-2	Soil	USA, Massachusetts, Boston	clusterIV	3	87	16	4	66	53	3	201
+G3X2-1	B.c_group BAG3X2-1	Soil	USA, Massachusetts, Boston	unclustered	9	12	91	91	93	78	84	202
+G3X2-2	B.c_group BAG3X2-2	Soil	USA, Massachusetts, Boston	clusterIV	13	4	56	33	15	61	64	203
+G4O-1	B.c_group BAG4O-1	Soil	USA, Massachusetts, Boston	clusterIV	3	87	16	4	66	53	3	201
+G4X12-1	B.c_group BAG4X12-1	Soil	USA, Massachusetts, Boston	clusterIV	3	4	92	33	3	86	16	204
+G4X2-1	B.c_group BAG4X2-1	Soil	USA, Massachusetts, Boston	clusterV	6	9	8	9	7	7	8	52
+G5O-1	B.c_group BAG5O-1	Soil	USA, Massachusetts, Boston	clusterV	64	9	8	9	94	43	8	205
+G5X1-1	B.c_group BAG5X1-1	Soil	USA, Massachusetts, Boston	clusterVI	65	88	93	92	95	44	85	206
+G5X12-1	B.c_group BAG5X12-1	Soil	USA, Massachusetts, Boston	clusterIV	3	4	92	33	3	86	16	204
+G5X2-1	B.c_group BAG5X2-1	Soil	USA, Massachusetts, Boston	clusterII	7	22	21	22	20	20	21	11
+G6O-1	B.c_group BAG6O-1	Soil	USA, Massachusetts, Boston	clusterV	6	9	8	93	94	7	8	207
+G6O-2	B.c_group BAG6O-2	Soil	USA, Massachusetts, Boston	clusterVI	66	88	64	94	48	87	47	208
+G6X1-1	B.c_group BAG6X1-1	Soil	USA, Massachusetts, Boston	clusterII	7	59	10	25	24	40	86	209
+G6X1-2	B.c_group BAG6X1-2	Soil	USA, Massachusetts, Boston	clusterVI	67	89	94	95	96	88	87	210
+Gmb1	B.anthracis Gmb1		Gambia	clusterIII	24	36	35	18	32	32	33	1
+H9401	B.anthracis H9401	Human, cutaneous anthrax patient [pXO1+/pXO2+]	Korea (South)	clusterIII	24	36	35	18	32	32	33	1
+Han	B.anthracis Han	Animal, dead cow blood (2013) [from the site of an anthrax outbreak]	China, Liaoning Province	clusterIII	24	36	-3	18	32	32	33	-12
+HD1002	B.thuringiensis israelensis HD1002	Other, Sewage	Israel	clusterIV	17	39	1	23	36	35	23	136
+HD1011	B.thuringiensis pondicheriensis HD1011	(1915)	India	clusterIII	33	35	46	44	40	32	44	71
+HD29	B.thuringiensis galleriae galleriae HD29 (AH445, BGSC4G5, CCEB565, DSM6110)	Animal, Insect, Siberian moth (Dendrolimus sibiricus)	Czechoslovakia or USSR	clusterIV	13	4	99	33	15	61	64	211
+HD571	B.thuringiensis kyushuensis DSM6080 (HD571)		Japan	clusterIII	2	3	3	3	2	32	17	89
+HD600	B.thuringiensis morrisoni HD600	Animal, Insect, silkworm (2007)	Japan	clusterIV	34	39	1	23	64	35	23	112
+HD682	B.thuringiensis finitimus HD682		Japan	clusterIII	2	35	47	18	40	32	17	212
+HD73	B.thuringiensis kurstaki HD73 (BGSC4D4, KT0)	Animal, Insect [two complete genomes sequenced for this strain with identical MLST sequences]		clusterIV	13	4	56	33	3	61	64	115
+HD771	B.thuringiensis HD771			clusterIV	34	11	1	23	36	35	46	75
+HD789	B.thuringiensis HD789			clusterIV	17	39	1	23	36	35	23	136
+Hu4-2	B.thuringiensis aizawai Hu4-2	Other, dust sample from maize grain silo	Spain	clusterIV	13	4	99	33	15	61	64	211
+HuA2-1	B.c_group HuA2-1	Soil	Belgium	clusterVI	21	20	26	19	23	92	91	213
+HuA2-3	B.c_group HuA2-3	Soil	Belgium	clusterV	6	9	8	9	7	7	8	52
+HuA2-4	B.c_group HuA2-4	Soil	Belgium	clusterVI	22	29	7	19	23	93	7	214
+HuA2-9	B.c_group HuA2-9	Soil	Belgium	clusterVI	22	93	19	104	23	92	92	215
+HuA3-9	B.c_group HuA3-9	Soil	Belgium	clusterVI	22	30	31	97	23	28	29	216
+HuA4-10	B.c_group HuA4-10	Soil	Belgium	clusterVI	72	94	7	105	102	94	93	217
+HuB1-1	B.c_group HuB1-1	Soil	Belgium	clusterIV	1	67	1	1	83	1	94	218
+HuB13-1	B.c_group HuB13-1	Soil	Belgium	clusterIV	13	4	56	33	3	61	64	115
+HuB2-9	B.c_group HuB2-9	Soil	Belgium	clusterV	6	9	8	9	7	7	8	52
+HuB4-10	B.c_group HuB4-10	Soil	Belgium	clusterV	64	9	8	9	94	7	8	219
+HuB4-4	B.c_group HuB4-4	Soil	Belgium	clusterIV	17	11	1	23	36	35	23	220
+HuB5-5	B.c_group HuB5-5	Soil	Belgium	clusterV	6	9	8	9	7	43	8	221
+HYU01	B.anthracis HYU01	Soil (2009) [pXO1+/pXO2+]	Korea (South), Changnyeong	clusterIII	24	36	42	18	32	32	33	60
+IS075	B.c_group IS075	Animal, Mammals	Poland	clusterIII	10	14	13	14	12	13	13	3
+IS195	B.c_group IS195	Animal, Mammals	Poland	clusterIII	10	14	13	14	12	13	13	3
+IS5056	B.thuringiensis thuringiensis IS5056	Soil (2005)	Poland, Biebrza National Park	clusterIV	1	67	1	1	1	1	1	44
+IS845/00	B.c_group IS845/00	Animal, Mammals	Poland	clusterIII	10	14	13	14	12	13	13	3
+ISP2954	B.c_group ISP2954	Food		clusterIV	13	4	56	33	3	61	64	115
+ISP3191	B.c_group ISP3191	Food		clusterIII	2	95	100	18	79	95	59	222
+JAS83/3	B.weihenstephanensis JAS83/3	Soil (2011) [MLST data different from isolate PL JAS83/3]	Poland	clusterVI	53	20	101	97	103	6	19	223
+JCM15801	B.gaemokensis type strain JCM 15801 (MCCC1A00707, BL3-6, KCTC13318)	Other, Yellow Sea tidal flat sediment (2011)		clusterI	73	96	102	106	104	96	95	224
+JCM15802	B.manliponensis type strain JCM 15802 (MCCC1A00708, BL4-6, KCTC13319)	Other, Yellow Sea tidal flat sediment (2011)		unclustered	74	97	103	0	105	97	96	-13
+JM-Mgvxx-63	B.thuringiensis JM-Mgvxx-63 (BrMgv02-JM63)	Other, oil-contaminated mangrove sediment (2013)	Brazil, Bertioga, Sao Paulo	clusterIV	61	64	87	88	52	76	81	225
+K3	B.anthracis K3	Human [pXO1+/pXO2+]	South Africa	clusterIII	24	36	35	18	32	32	33	1
+K4516	B.anthracis BA1015 (A0376, K4516)	Animal, cattle (Bovine) (1939) [pXO1+/pXO2+]	USA, Maryland	clusterIII	24	36	35	18	32	32	76	171
+K-5975c	B.c_group K-5975c	Food		clusterIV	34	39	1	23	36	35	23	226
+KS100Bc	B.cereus KS100Bc	Food service operation (2014)	Korea (South), Gyeonggi-do	clusterIII	12	16	15	36	14	15	15	2
+LCT-BC235	B.cereus LCT-BC235	Other, culture sent to space aboard the Shenzhou-8 spacecraft; isolated after space flight		clusterIII	10	35	73	107	31	13	13	227
+LCT-BC244	B.cereus LCT-BC244			clusterIII	10	35	73	107	31	13	13	227
+LCT-BC25	B.cereus LCT-BC25	Other, culture sent to space aboard the Shenzhou-8 spacecraft; isolated after space flight		clusterIII	10	35	73	107	31	13	13	227
+Leapi01	B.thuringiensis aizawai Leapi01	Animal, Insect, Loreyi Leafworm/Cosmopolitan (Mythimna loreyi/Leucania loreyi) dead larva	Spain	clusterIV	13	4	99	33	15	61	64	211
+LM1212	B.thuringiensis LM1212	Animal, Insect, beetle (Oryctes gigas) cadaver	Madagascar	clusterIII	75	37	104	108	33	33	34	228
+Lr3/2	B.thuringiensis Lr3/2	Other, Water (2011) [altitude 3997 m.]	Chile, Lirima thermal springs	clusterIII	40	78	96	99	41	13	13	183
+Lr4/2	B.cereus Lr4/2			clusterIV	3	4	57	57	56	53	56	97
+Lr7/2	B.thuringiensis Lr7/2	Other, Water (2011)	Chile, Lirima thermal springs	clusterIV	17	11	1	23	64	35	23	229
+MC118	B.c_group MC118			clusterVI	16	21	64	109	106	98	97	230
+MC28	B.thuringiensis MC28	Soil, virgin forest soil	China, Mu Chuan virgin forest, Sichuan Province	clusterV	6	58	58	9	94	7	8	231
+MC67	B.c_group MC67			clusterVI	16	21	64	109	106	98	97	230
+MIT0214	B.cereus MIT0214	Other, Deep subsurface (2010) [isolated through enrichment of samples from geologic sequestration sites in pressurized bioreactors containing a supercritical CO2 headspace]	USA, Texas	clusterIV	3	6	59	69	5	99	5	232
+MSX-A1	B.c_group MSX-A1			clusterIV	34	11	1	23	64	35	66	233
+MSX-A12	B.c_group MSX-A12			clusterIII	10	14	13	14	12	13	13	3
+MSX-D12	B.c_group MSX-D12			clusterIII	10	35	105	45	41	13	13	234
+NA205-3	B.thuringiensis tolworthi NA205-3	Other, dust from maize silo	Spain	clusterIV	1	67	1	1	1	1	1	44
+NBIN-866	B.thuringiensis NBIN-866	Soil	China, Hubei Province	clusterIV	76	4	106	33	15	61	64	235
+NRS936	B.mycoides Flugge 10206 (ATCC10206, NCIMB8096, NCTC2603, CIP105443, NRS936)			clusterI	56	73	76	65	99	69	71	236
+OhioACB	B.anthracis Ohio ACB	Animal, pig [pXO1+/pXO2+]	USA, Ohio	clusterIII	24	36	35	18	32	32	33	1
+Pasteur	B.anthracis Pasteur	Animal, cat [pXO1-/pXO2+]		clusterIII	24	36	35	18	32	32	33	1
+Pasteur_Standard	B.thuringiensis tolworthi Pasteur Institute Standard strain (Pasteur_Standard)			clusterIV	3	13	69	13	107	12	12	237
+Pollino	B.anthracis Pollino	Animal, cattle (bovine) carcass (2014) [from a bovine anthrax-burial site; pXO1+/pXO2+]	Italy, Pollino National Park, Basilicata	clusterIII	24	36	35	18	32	32	33	1
+S2-8	B.cereus S2-8 (FRI42)	Soil (1993) [University of Wisconsin-Madison]	USA, Wisconsin, Madison	clusterIII	33	35	37	44	40	32	17	124
+Sbt003	B.thuringiensis Sbt003	Soil (2010)	China, Hubei	clusterIV	3	76	69	73	11	12	58	149
+Schrouff	B.c_group Schrouff	Food		clusterIV	34	39	1	23	36	35	23	226
+Sen2Col2	B.anthracis Sen2Col2		Senegal	clusterIII	24	36	35	18	32	32	33	1
+Sen3	B.anthracis Sen3		Senegal	clusterIII	24	36	35	18	32	32	33	1
+Shikan-NIID	B.anthracis Shikan-NIID	Animal, horse (1928)	Japan, Tokyo	clusterIII	24	36	35	18	32	32	33	1
+SK-102	B.anthracis SK-102	Other, Wool from Pakistan (1976) [pXO1+/pXO2+]	USA, New Jersey	clusterIII	24	36	35	18	32	32	33	1
+Smith1013	B.anthracis Smith 1013 (Pasteur-like)	[pXO1-/pXO2+]		clusterIII	24	36	35	18	32	32	33	1
+Sterne	B.anthracis Sterne		USA	clusterIII	24	36	35	18	32	32	33	1
+SVA11	B.anthracis SVA11	Animal, cattle (2011) [from an outbreak in cattle that occurred in a Swedish nature reserve; pXO1+/pXO2+]	Sweden	clusterIII	24	36	42	18	32	32	33	60
+T01-328	B.thuringiensis T01-328	Soil (1994)	Brazil, Cubatao county, Sao Paulo	clusterIV	1	67	1	1	1	1	1	44
+TIAC219	B.c_group TIAC219	Food		clusterIV	34	11	1	23	36	35	46	75
+tsu1	B.cereus tsu1	Other, contaminated cellulose-agar plate (2009)	USA, Tennessee, Nashville	clusterIV	3	4	4	62	3	3	3	238
+Turkey32	B.anthracis Turkey32	Human, skin (1991) [pXO1+/pXO2+]	Turkey, Yozgat	clusterIII	24	36	35	18	32	32	33	1
+UR-1	B.anthracis UR-1	Human, blood (2012) [from a german heroin user; fatal case of injectional anthrax; pXO1+/pXO2+]	Germany, Bavaria	clusterIII	24	36	35	18	32	32	33	1
+VD014	B.c_group VD014	Soil	Spain	clusterIV	3	69	107	110	69	100	67	239
+VD021	B.c_group VD021	Other, Water from a small pond site	Belgium	clusterVI	77	20	7	19	108	93	7	240
+VD022	B.c_group VD022	Other, Water from a small pond site	Belgium	clusterIV	34	11	1	23	36	35	46	75
+VD045	B.c_group VD045	Soil	Greenland	clusterIV	3	13	69	13	107	12	12	237
+VD048	B.c_group VD048	Soil	Greenland	clusterVI	5	20	19	29	18	18	19	24
+VD078	B.c_group VD078	Soil	Greenland	clusterVI	53	20	7	19	23	6	19	241
+VD102	B.c_group VD102	Soil	Guadeloupe	clusterIII	10	35	73	35	41	13	52	242
+VD107	B.c_group VD107	Soil	Guadeloupe	unclustered	78	98	108	111	109	101	98	243
+VD115	B.c_group VD115	Soil	Guadeloupe	clusterV	6	99	109	112	110	102	99	244
+VD118	B.c_group VD118	Soil	Guadeloupe	clusterVI	16	21	110	113	111	103	20	245
+VD131	B.c_group VD131	Soil	Martinique	clusterV	79	9	88	9	77	7	100	246
+VD133	B.c_group VD133	Soil	Martinique	clusterIV	13	4	56	33	15	16	64	247
+VD136	B.c_group VD136	Soil	UK, Scotland	clusterI	80	100	111	0	112	104	101	-14
+VD140	B.c_group VD140	Soil	UK, Scotland	clusterIV	3	4	57	4	56	105	56	248
+VD142	B.c_group VD142	Soil	UK, Scotland	clusterVI	15	101	112	19	17	106	91	249
+VD146	B.c_group VD146	Soil	UK, Scotland	clusterVI	81	20	7	97	23	6	19	250
+VD148	B.c_group VD148	Soil	UK, Scotland	clusterV	6	9	8	9	7	7	8	52
+VD154	B.c_group VD154	Soil	UAE, Abu Dhabi	clusterIV	3	76	69	73	11	12	58	149
+VD156	B.c_group VD156	Soil	UAE, Abu Dhabi	clusterIV	3	69	107	64	69	65	67	251
+VD166	B.c_group VD166	Soil	UAE, Dubai	clusterIV	3	13	12	13	113	107	12	252
+VD169	B.c_group VD169	Soil	UAE, Dubai	clusterIV	3	13	12	13	11	108	12	253
+VD184	B.cereus VD184			clusterIV	3	6	6	38	65	5	5	254
+VD196	B.c_group VD196	Soil	UAE, Dubai	clusterIV	3	13	59	13	11	109	12	255
+VD200	B.c_group VD200	Other, Water	UK, Scotland	clusterIV	3	13	113	38	11	12	12	256
+VD214	B.c_group VD214	Other, Water	UK, Scotland	clusterV	6	9	8	9	7	7	8	52
+VDM006	B.c_group VDM006	Soil	Spain	clusterI	80	100	111	0	112	104	101	-14
+VDM019	B.c_group VDM019	Soil	Greenland	clusterVI	53	20	27	114	23	18	19	257
+VDM021	B.c_group VDM021	Soil	Greenland	clusterI	80	100	111	0	112	104	101	-14
+VDM022	B.c_group VDM022	Soil	Greenland	clusterVI	82	102	7	19	23	18	19	258
+VDM034	B.c_group VDM034	Soil	Spain	clusterVI	53	101	26	19	23	18	102	259
+VDM053	B.c_group VDM053	Other, Water from a small pond site	Belgium	unclustered	9	12	114	12	10	110	49	260
+VDM062	B.c_group VDM062	Soil	UK, Scotland	clusterVI	53	101	26	19	23	18	102	259
+Vollum1B	B.anthracis Vollum 1B	Human (1951) [weaponized Vollum substrain used in American warheads during the 1960-s; pXO1+/pXO2+]	USA	clusterIII	24	36	35	18	32	32	33	1
+XL6	B.thuringiensis XL6	Soil (2006)	China, Inner Mongolia	clusterIII	11	70	14	55	50	38	14	130
+YBT-1518	B.thuringiensis YBT-1518	Soil	China, Jianghan Plain, Hubei	clusterIV	1	67	1	115	114	111	1	261
+YC-10	B.thuringiensis YC-10 (CCTCC M2010023)	Plant, tobacco roots (2010)	China, Hunan Province	clusterIV	13	4	56	33	3	61	64	115
+Zimbabwe89	B.anthracis Zimbabwe89		Zimbabwe	clusterIII	24	36	42	18	32	32	33	60
